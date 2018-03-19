@@ -1,8 +1,9 @@
 import argparse
 import math
 import re
+import time
 
-
+start = time.clock();
 def count_lines():
     n_of_l = sum(1 for line in open(args.name))
     return n_of_l
@@ -37,3 +38,5 @@ elif args.lines:
 elif args.words:
     print(count_words())
 print(args.name)
+start2 = time.clock();
+print(start2-start)
