@@ -1,4 +1,4 @@
-#Project Title: **Word Counter**
+**Project Title: Word Counter** \
 Program has been tested for three text files.\
 \*`text1.txt` \
 \*`text2.txt` \
